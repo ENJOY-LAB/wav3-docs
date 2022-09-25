@@ -16,6 +16,7 @@ The standard extension is based on [token.move](https://github.com/aptos-labs/ap
 |supply	|u64	|The total amount of token_data issued by the current collection	|
 |maximum	|u64 	|The maximum number of token_data this collection can issue	|
 |mutability_config	|Collection MutabilityConfig 	|Defines the mutability of description, uri, and maximum |
+|multi_edition  |bool   |Description whether NFT allows multi printed edition  |
 
 ## extend_property
 
